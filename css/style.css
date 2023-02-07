@@ -1,7 +1,45 @@
+@font-face {
+  font-family: '23';
+  src: url(../font/23.ttf);
+}
+@font-face {
+  font-family: 'birth';
+  src: url(../font/birth.otf);
+}
+
 body {
   background-color: #e9dfd3;
 }
-
+.main-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-subtext {
+  margin-top: -10px;
+  font-family: 'birth';
+  font-size: 50px;
+  color: #8a6230;
+  text-align: center;
+}
+.main-text {
+  background:url(../img/cif.jpg);
+  background-repeat:repeat-x;
+  background-position:0 0;
+  width: 300px;
+  height: 100px;
+  font-size: 100px;
+  font-family: '23';
+  text-align:center;
+  color:transparent;
+  -webkit-font-smoothing:antialiased;
+  -webkit-background-clip:text;
+  -moz-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  margin:0;
+}
 .block__main {
   height: 100vh;
   position: relative;
